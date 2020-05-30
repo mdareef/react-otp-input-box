@@ -1,0 +1,19 @@
+.otp-box input:required, input:required{
+      box-shadow: none;
+}
+  
+    input[type='tel'] {
+      border: solid 1px #d9d9d9;
+      background-color: #ffffff;
+      height: 3.5rem;
+      width: 4rem;
+      text-align: center;
+      margin-right: 1rem;
+      font-size: 20px;
+    }
+  
+
+  input[type='tel']:focus {
+    background-color: #ffffff;
+    border-color: #000000;
+  }
